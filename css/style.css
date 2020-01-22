@@ -1,0 +1,25 @@
+/* 0-1-0 */
+.warning {
+    color: white;
+    background-color: black;
+}
+
+/* 0-2-0 */
+.warning.warning--active {
+    color: red;
+}
+
+/* 0-1-0 */
+.warning {
+    color: green;
+}
+
+/* SPECIFICITY OF SELECTORS */
+
+/* A - number of ID selectors */
+/* B - number of class, attributes, pseudo-classes selectors */
+/* C - number of tags, pseudo-elements */
+
+/*  * selector does not count */
+
+/* Latests win if no winner by specificity */
